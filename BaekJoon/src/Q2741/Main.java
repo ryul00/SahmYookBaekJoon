@@ -10,7 +10,7 @@ public class Main {
        sc.close();
 
        
-       for(int i = 1; i<=N; i++ ) {
+       for(int i = 1; i <= N; i++ ) {
     	   System.out.println(i);
     	   
        }
