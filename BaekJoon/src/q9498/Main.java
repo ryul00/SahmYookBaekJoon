@@ -10,7 +10,7 @@ public class Main {
 	       
 	       sc.close();
 
-	       // if문
+	       // if-else문
 	       if (90 <= score && score <= 100) {
 	    	    System.out.println("A");
 	    	} else if (80 <= score && score <= 89) {
@@ -24,22 +24,23 @@ public class Main {
 	    	}
 	       
 	       
-	       // switch-case문
-	       switch(score) {
-	       case 90,91,92,93,94,95,96,97,98,99,100:
+	       // switch-case문 -> 범위 체크x 특정 값 비교 O
+	       switch(score/10) {
+	       case 10:
+	       case 9:
 	    	   System.out.println('A');
 	    	   break;
 	      
-	       case 80,81,82,83,84,85,86,87,88,89:
+	       case 8:
 	    	   System.out.println('B');
 	       	   break;
 	       	   
-	       case 70,71,72,73,74,75,76,77,78,79:
-	    	   System.out.println('c');
+	       case 7:
+	    	   System.out.println('C');
 	       	   break;
 	       	   
-	       case 60,61,62,63,64,65,66,67,68,69:
-	    	   System.out.println('d');
+	       case 6:
+	    	   System.out.println('D');
 	       	   break;
 	       	   
 	       default:
