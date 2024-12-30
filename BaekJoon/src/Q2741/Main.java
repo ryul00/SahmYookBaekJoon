@@ -1,6 +1,6 @@
 package Q2741;
 
-import java.util.Scanner;
+import java.util.Scanner; // 사용자 입력 클래스 
 
 public class Main {
     public static void main(String[] args) {
