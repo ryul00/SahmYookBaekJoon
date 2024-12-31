@@ -15,6 +15,7 @@ public class Main {
 			if (score[idx] < 40) { // 40점 미만은 40으로 판단하는 조건문
 				score[idx] = 40;
 			}
+			sc.close();
 			sum += score[idx]; // 총합 계산
 		}
 		avg = sum / score.length; // 평균 계산
