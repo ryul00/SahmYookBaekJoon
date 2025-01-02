@@ -3,7 +3,7 @@ package q1193;
 import java.util.Scanner;
 
 public class Main {
-	private static int leftValue = 1, rightValue = 1;
+	//private static int leftValue = 1, rightValue = 1;
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,7 +14,8 @@ public class Main {
 		// LEFTDOWN - DOWN
 		// 1/1 - 1/2 - 2/1 - 3/1 - 2/2 - 1/3 - 1/4 - 2/3 - 3/2 - 4/1 - 5/1
 		// RIGHT(1) - LEFTDOWN(1, 3, 5 ...) - DOWN(1) - RIGHTUP(2, 4, 6 ...) - RIGHT
-
+		int rightValue = 1;
+		int leftValue = 1;
 		int ldcnt = 1;
 		int rucnt = 2;
 		while (true) {
