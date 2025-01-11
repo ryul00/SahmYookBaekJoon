@@ -17,6 +17,13 @@ front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어�
 back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.*/
 
 
+
+// 풀이 : queue는 FIFO 방식
+// offer(): 큐의 뒤에 요소를 추가하는 메서드입니다 (같은 역할을 하는 메서드는 offerLast()).
+// poll(): 큐의 앞에서 요소를 제거하고 반환하는 메서드입니다 (같은 역할을 하는 메서드는 pollFirst()).
+// peek(): 큐의 앞에 있는 요소를 반환하는 메서드입니다 (같은 역할을 하는 메서드는 peekFirst()).
+// peekLast(): 큐의 뒤에 있는 요소를 반환하는 메서드입니다.
+
 public class Main {
 
 	public static void main(String[] args) {
