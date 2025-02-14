@@ -17,7 +17,7 @@ public class Main {
 			arr2[i] = arr[i] % 42; 
 		}
 		
-		arr2 = Arrays.stream(arr2).distinct().toArray();
+		arr2 = Arrays.stream(arr2).distinct().toArray(); // 중복 제거
 		
 		System.out.println(arr2.length);
 		
