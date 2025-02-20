@@ -27,13 +27,27 @@ public class Main {
 		
 
 		// 복수 정답 시 예외처리 => 중요!!!!!!!!!
+		int maxcnt = 0;
 		for(int i = 0; i < arr.length; i++) {
-		    if(arr[i] == max && i != maxIndex) {
-		        System.out.println("?");
-		        return; // 프로그램 자체를 종료함
-		    }
+			if(arr[i] == max) {
+				maxcnt++;
+			}
 		}
-		System.out.println(maxChar);
+		if(maxcnt>1) {
+			System.out.println("?");
+		}else {
+			System.out.println(maxChar);
+		}
+		
+		
+		//return 사용
+//		for(int i = 0; i < arr.length; i++) {
+//	    if(arr[i] == max && i != maxIndex) {
+//	        System.out.println("?");
+//	        return; // 프로그램 자체를 종료함
+//	    }
+//	}
+//	System.out.println(maxChar);
 		
 		
 
