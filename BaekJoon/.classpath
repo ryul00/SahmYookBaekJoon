@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Difficult"/>
 	<classpathentry kind="src" path="HashMapSet"/>
+	<classpathentry kind="src" path="src2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
