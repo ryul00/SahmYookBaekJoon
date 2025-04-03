@@ -26,7 +26,7 @@ public class Main {
 			}
 		}
         System.out.print(sb.toString()); // 한 번에 출력
-
+        br.close();
 	}
 
 }
